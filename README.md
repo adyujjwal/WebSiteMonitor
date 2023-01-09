@@ -21,24 +21,30 @@ To watch the working demo of all the APIs: https://youtu.be/UuPCuyVJJvE
 
 1. /checkWebsiteCurrentStatus : Check the current status of any website if it's up or down. (Take url of the website as a paramter.)
 2. /createNewUser : Creates a new user in the database. After the creation of an user, they can create new checks for any website they want to monitor.( Takes object of user as a parameter with the following properties.)
+```
 {
   "name":"",
   "emailId":"",
   "phoneNumber:""
 }
+```
 3. /createNewCheck : Allows the user to create new checks for the websites they want to monitor, The user has the libery to set the frequeny of checks by minutes or by hours. (Also take an object as a parameter with the following properties.)
+```
 {
   "userId":"",
   "checkName":"",
   "frequency":"",
   "url":""
 }
+```
 4. /updateCheck : Allows user to update the Check name, frequency or url. (Takes the below object as a parameter.)
+```
 {
   "checkName":"",
   "frequency":"",
   "url":"
 }
+```
 5. /deleteCheck : deletes the check from the database. (Take checkId as a parameter.)
 6. /getAllCheck : It gets all the check made by the user for websites. (Takes userId as a parameter.)
 7. /startMonitoringJob : This API runs the Job on every time interval set by the user, it hits the website to check the status of the website and updates it on to the database. (Takes checkId as a parameter.)
