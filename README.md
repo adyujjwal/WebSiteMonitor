@@ -1,4 +1,4 @@
-https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot
+![SpringBoot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)
 # WebSiteMonitor
 
 Website Up Time Monitoring backend service using Spring Boot that can track uptime of any website.
