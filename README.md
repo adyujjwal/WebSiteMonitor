@@ -7,7 +7,7 @@ Website Up Time Monitoring backend service using Spring Boot that can track upti
 
 - [Introduction](#introduction)
 - [APIs](#apis)
-- [Running The Application](#sending-pairings-programmatically-via-outlook-with-zoom-integration)
+- [Running The Application](#running-the-application)
 
 ## Introduction
 
